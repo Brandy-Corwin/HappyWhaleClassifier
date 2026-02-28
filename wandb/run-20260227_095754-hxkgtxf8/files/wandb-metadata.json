@@ -1,0 +1,74 @@
+{
+  "os":  "Linux-4.18.0-553.69.1.el8_10.x86_64-x86_64-with-glibc2.28",
+  "python":  "CPython 3.13.1",
+  "startedAt":  "2026-02-27T17:57:54.385132Z",
+  "program":  "<python with no main file>",
+  "git":  {
+    "remote":  "https://github.com/Brandy-Corwin/HappyWhaleClassifier.git",
+    "commit":  "d222c168e5b5f8a1571b1423bec8705c38f5a303"
+  },
+  "email":  "bcorwin@uoregon.edu",
+  "root":  "/gpfs/home/bcorwin/HappyWhaleClassifier",
+  "host":  "n0149.talapas.uoregon.edu",
+  "executable":  "/projects/bgmp/shared/Bi625/ML_Assignment/Conda_Envs/HumpbackClassifierEnv/bin/python",
+  "cpu_count":  48,
+  "cpu_count_logical":  48,
+  "gpu":  "NVIDIA A100 80GB PCIe",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "42949664768",
+      "used":  "25759260672"
+    }
+  },
+  "memory":  {
+    "total":  "540092194816"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA A100 80GB PCIe",
+      "memoryTotal":  "85899345920",
+      "architecture":  "Ampere",
+      "uuid":  "GPU-4a0bd89f-bb26-958c-8240-3541d4246ac0"
+    }
+  ],
+  "cudaVersion":  "13.0",
+  "slurm":  {
+    "cluster_name":  "talapas",
+    "conf":  "/var/spool/slurm/conf-cache/slurm.conf",
+    "cpus_on_node":  "6",
+    "cpus_per_task":  "6",
+    "gpus_on_node":  "1",
+    "gtids":  "0",
+    "job_account":  "bgmp",
+    "job_cpus_per_node":  "6",
+    "job_end_time":  "1772243639",
+    "job_gid":  "131",
+    "job_gpus":  "8",
+    "job_id":  "42414681",
+    "job_name":  "sys/dashboard/sys/jupyter",
+    "job_nodelist":  "n0149",
+    "job_num_nodes":  "1",
+    "job_partition":  "gpu",
+    "job_qos":  "normal",
+    "job_start_time":  "1772214839",
+    "job_uid":  "287341",
+    "job_user":  "bcorwin",
+    "jobid":  "42414681",
+    "localid":  "0",
+    "mem_per_node":  "32768",
+    "nnodes":  "1",
+    "nodeid":  "0",
+    "nodelist":  "n0149",
+    "prio_process":  "0",
+    "procid":  "0",
+    "submit_dir":  "/var/www/ood/apps/sys/dashboard",
+    "submit_host":  "ood1.talapas.uoregon.edu",
+    "task_pid":  "1639635",
+    "tasks_per_node":  "1",
+    "topology_addr":  "ibcore[1-6].ib13.n0149",
+    "topology_addr_pattern":  "switch.switch.node",
+    "tres_per_task":  "cpu=6"
+  },
+  "writerId":  "dpep6zh38wi3a6rupfxuzpf4v29urvm0"
+}

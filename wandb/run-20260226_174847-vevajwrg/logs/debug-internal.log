@@ -1,0 +1,13 @@
+{"time":"2026-02-26T17:48:48.078957557-08:00","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-26T17:48:48.316749857-08:00","level":"INFO","msg":"stream: created new stream","id":"vevajwrg"}
+{"time":"2026-02-26T17:48:48.316801014-08:00","level":"INFO","msg":"handler: started","stream_id":"vevajwrg"}
+{"time":"2026-02-26T17:48:48.317409661-08:00","level":"INFO","msg":"stream: started","id":"vevajwrg"}
+{"time":"2026-02-26T17:48:48.317434879-08:00","level":"INFO","msg":"writer: started","stream_id":"vevajwrg"}
+{"time":"2026-02-26T17:48:48.317439317-08:00","level":"INFO","msg":"sender: started","stream_id":"vevajwrg"}
+{"time":"2026-02-26T17:48:49.034034687-08:00","level":"WARN","msg":"handleCodeSave: program relative path is empty"}
+{"time":"2026-02-26T17:59:58.701800061-08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-26T17:59:58.86849587-08:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-26T17:59:58.871947077-08:00","level":"INFO","msg":"stream: closing","id":"vevajwrg"}
+{"time":"2026-02-26T17:59:58.871964119-08:00","level":"INFO","msg":"handler: closed","stream_id":"vevajwrg"}
+{"time":"2026-02-26T17:59:58.872169015-08:00","level":"INFO","msg":"sender: closed","stream_id":"vevajwrg"}
+{"time":"2026-02-26T17:59:58.872189273-08:00","level":"INFO","msg":"stream: closed","id":"vevajwrg"}

@@ -1,0 +1,13 @@
+{"time":"2026-02-26T17:45:58.348282215-08:00","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-26T17:45:58.66317644-08:00","level":"INFO","msg":"stream: created new stream","id":"gb8cbwdd"}
+{"time":"2026-02-26T17:45:58.663480693-08:00","level":"INFO","msg":"handler: started","stream_id":"gb8cbwdd"}
+{"time":"2026-02-26T17:45:58.664281112-08:00","level":"INFO","msg":"stream: started","id":"gb8cbwdd"}
+{"time":"2026-02-26T17:45:58.664297112-08:00","level":"INFO","msg":"sender: started","stream_id":"gb8cbwdd"}
+{"time":"2026-02-26T17:45:58.664297313-08:00","level":"INFO","msg":"writer: started","stream_id":"gb8cbwdd"}
+{"time":"2026-02-26T17:45:58.96265195-08:00","level":"WARN","msg":"handleCodeSave: program relative path is empty"}
+{"time":"2026-02-26T17:46:29.549814084-08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-26T17:46:29.75276193-08:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-26T17:46:29.756239565-08:00","level":"INFO","msg":"stream: closing","id":"gb8cbwdd"}
+{"time":"2026-02-26T17:46:29.756254153-08:00","level":"INFO","msg":"handler: closed","stream_id":"gb8cbwdd"}
+{"time":"2026-02-26T17:46:29.756309397-08:00","level":"INFO","msg":"sender: closed","stream_id":"gb8cbwdd"}
+{"time":"2026-02-26T17:46:29.756320268-08:00","level":"INFO","msg":"stream: closed","id":"gb8cbwdd"}

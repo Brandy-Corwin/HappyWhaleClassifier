@@ -1,0 +1,98 @@
+2026-02-26 15:56:50,611 INFO    MainThread:1273847 [wandb_setup.py:_flush():81] Current SDK version is 0.25.0
+2026-02-26 15:56:50,611 INFO    MainThread:1273847 [wandb_setup.py:_flush():81] Configure stats pid to 1273847
+2026-02-26 15:56:50,611 INFO    MainThread:1273847 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-02-26 15:56:50,611 WARNING MainThread:1273847 [wandb_setup.py:_flush():81] interrupted
+Traceback (most recent call last):
+  File "/projects/bgmp/shared/Bi625/ML_Assignment/Conda_Envs/HumpbackClassifierEnv/lib/python3.13/site-packages/IPython/core/interactiveshell.py", line 3577, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_1273847/572551665.py", line 1, in <module>
+    wandb.init(
+    ~~~~~~~~~~^
+        project="BGMP_HappyWhale",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+            "epochs":5}
+            ^^^^^^^^^^^
+    )
+    ^
+  File "/projects/bgmp/shared/Bi625/ML_Assignment/Conda_Envs/HumpbackClassifierEnv/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 1516, in init
+    wi.maybe_login(init_settings)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/projects/bgmp/shared/Bi625/ML_Assignment/Conda_Envs/HumpbackClassifierEnv/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 193, in maybe_login
+    wandb_login._login(
+    ~~~~~~~~~~~~~~~~~~^
+        host=run_settings.base_url,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        update_api_key=explicit_key is None,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/projects/bgmp/shared/Bi625/ML_Assignment/Conda_Envs/HumpbackClassifierEnv/lib/python3.13/site-packages/wandb/sdk/wandb_login.py", line 190, in _login
+    auth = _find_or_prompt_for_key(
+        settings,
+    ...<4 lines>...
+        input_timeout=timeout,
+    )
+  File "/projects/bgmp/shared/Bi625/ML_Assignment/Conda_Envs/HumpbackClassifierEnv/lib/python3.13/site-packages/wandb/sdk/wandb_login.py", line 266, in _find_or_prompt_for_key
+    auth = wbauth.authenticate_session(
+        host=host,
+    ...<5 lines>...
+        relogin=relogin,
+    )
+  File "/projects/bgmp/shared/Bi625/ML_Assignment/Conda_Envs/HumpbackClassifierEnv/lib/python3.13/site-packages/wandb/sdk/lib/wbauth/authenticate.py", line 131, in authenticate_session
+    return _use_prompted_auth(
+        host=host,
+    ...<3 lines>...
+        input_timeout=input_timeout,
+    )
+  File "/projects/bgmp/shared/Bi625/ML_Assignment/Conda_Envs/HumpbackClassifierEnv/lib/python3.13/site-packages/wandb/sdk/lib/wbauth/authenticate.py", line 263, in _use_prompted_auth
+    api_key = prompt.prompt_and_save_api_key(
+        host=host,
+    ...<3 lines>...
+        input_timeout=input_timeout,
+    )
+  File "/projects/bgmp/shared/Bi625/ML_Assignment/Conda_Envs/HumpbackClassifierEnv/lib/python3.13/site-packages/wandb/sdk/lib/wbauth/prompt.py", line 52, in prompt_and_save_api_key
+    api_key = _prompt_api_key(
+        host=host,
+    ...<3 lines>...
+        input_timeout=input_timeout,
+    )
+  File "/projects/bgmp/shared/Bi625/ML_Assignment/Conda_Envs/HumpbackClassifierEnv/lib/python3.13/site-packages/wandb/sdk/lib/wbauth/prompt.py", line 90, in _prompt_api_key
+    choice = util.prompt_choices(choices, input_timeout=input_timeout)
+  File "/projects/bgmp/shared/Bi625/ML_Assignment/Conda_Envs/HumpbackClassifierEnv/lib/python3.13/site-packages/wandb/util.py", line 1343, in prompt_choices
+    choice = terminput("Enter your choice: ", timeout=input_timeout)
+  File "/projects/bgmp/shared/Bi625/ML_Assignment/Conda_Envs/HumpbackClassifierEnv/lib/python3.13/site-packages/wandb/errors/term.py", line 321, in terminput
+    return _terminput(prefixed_prompt, timeout=timeout, hide=hide)
+  File "/projects/bgmp/shared/Bi625/ML_Assignment/Conda_Envs/HumpbackClassifierEnv/lib/python3.13/site-packages/wandb/errors/term.py", line 382, in _terminput
+    raise KeyboardInterrupt from None
+KeyboardInterrupt
+2026-02-26 15:56:50,614 INFO    MainThread:1273847 [wandb_init.py:setup_run_log_directory():717] Logging user logs to /gpfs/home/bcorwin/HappyWhaleClassifier/wandb/run-20260226_155650-y22wvctt/logs/debug.log
+2026-02-26 15:56:50,614 INFO    MainThread:1273847 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to /gpfs/home/bcorwin/HappyWhaleClassifier/wandb/run-20260226_155650-y22wvctt/logs/debug-internal.log
+2026-02-26 15:56:50,614 INFO    MainThread:1273847 [wandb_init.py:monkeypatch_ipython():636] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x1505a56b1950>
+2026-02-26 15:56:50,614 INFO    MainThread:1273847 [wandb_init.py:init():844] calling init triggers
+2026-02-26 15:56:50,614 INFO    MainThread:1273847 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'learning rate': 0.001, 'architecture': 'CNN', 'dataset': 'Species', 'epochs': 5, '_wandb': {}}
+2026-02-26 15:56:50,614 INFO    MainThread:1273847 [wandb_init.py:init():892] starting backend
+2026-02-26 15:56:51,755 INFO    MainThread:1273847 [wandb_init.py:init():895] sending inform_init request
+2026-02-26 15:56:51,794 INFO    MainThread:1273847 [wandb_init.py:init():903] backend started and connected
+2026-02-26 15:56:51,798 INFO    MainThread:1273847 [wandb_run.py:_label_probe_notebook():1333] probe notebook
+2026-02-26 15:56:51,798 INFO    MainThread:1273847 [wandb_run.py:_label_probe_notebook():1343] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2026-02-26 15:56:51,798 INFO    MainThread:1273847 [wandb_init.py:init():973] updated telemetry
+2026-02-26 15:56:52,484 INFO    MainThread:1273847 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-02-26 15:56:52,743 INFO    MainThread:1273847 [wandb_init.py:init():1042] starting run threads in backend
+2026-02-26 15:56:54,804 INFO    MainThread:1273847 [wandb_run.py:_console_start():2524] atexit reg
+2026-02-26 15:56:54,804 INFO    MainThread:1273847 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-02-26 15:56:54,804 INFO    MainThread:1273847 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-02-26 15:56:54,804 INFO    MainThread:1273847 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-02-26 15:56:54,831 INFO    MainThread:1273847 [wandb_init.py:init():1082] run started, returning control to user process
+2026-02-26 17:24:14,564 INFO    MainThread:1273847 [wandb_run.py:_finish():2291] finishing run BGMP_HappyWhale/BGMP_HappyWhale/y22wvctt
+2026-02-26 17:24:14,601 INFO    MainThread:1273847 [jupyter.py:save_history():464] saving 20 cells to _session_history.ipynb
+2026-02-26 17:24:14,601 INFO    MainThread:1273847 [wandb_run.py:_config_callback():1403] config_cb ('_wandb', 'session_history') code/_session_history.ipynb None
+2026-02-26 17:24:14,608 INFO    MainThread:1273847 [jupyter.py:_save_ipynb():374] looking for notebook: None
+2026-02-26 17:24:14,608 INFO    MainThread:1273847 [wandb_init.py:_jupyter_teardown():621] cleaning up jupyter logic
+2026-02-26 17:24:14,608 INFO    MainThread:1273847 [wandb_run.py:_atexit_cleanup():2490] got exitcode: 0
+2026-02-26 17:24:14,608 INFO    MainThread:1273847 [wandb_run.py:_restore():2472] restore
+2026-02-26 17:24:14,609 INFO    MainThread:1273847 [wandb_run.py:_restore():2478] restore done
+2026-02-26 17:24:15,501 INFO    MainThread:1273847 [wandb_run.py:_footer_sync_info():3868] logging synced files

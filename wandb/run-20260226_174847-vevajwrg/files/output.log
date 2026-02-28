@@ -1,0 +1,60 @@
+Dataset ImageFolder
+    Number of datapoints: 2794
+    Root location: /projects/bgmp/shared/Bi625/ML_Assignment/Datasets/Whale_species/species
+    StandardTransform
+Transform: Compose(
+               ToTensor()
+               Resize(size=[32, 32], interpolation=bilinear, max_size=None, antialias=True)
+               Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+           )
+2794
+Dataset ImageFolder
+    Number of datapoints: 2794
+    Root location: /projects/bgmp/shared/Bi625/ML_Assignment/Datasets/Whale_species/species
+    StandardTransform
+Transform: Compose(
+               ToTensor()
+               Resize(size=[32, 32], interpolation=bilinear, max_size=None, antialias=True)
+               Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+           )
+{'beluga': 0, 'common_dolphin': 1, 'false_killer_whale': 2, 'fin_whale': 3, 'gray_whale': 4, 'humpback_whale': 5}
+Image size is {torch.Size([32, 32])}
+torch.Size([3, 32, 32])
+Image size is {torch.Size([224, 224])}
+torch.Size([3, 224, 224])
+Image size is {torch.Size([224, 224])}
+torch.Size([3, 224, 224])
+Image size is {torch.Size([224, 224])}
+torch.Size([3, 224, 224])
+Dataset ImageFolder
+    Number of datapoints: 2794
+    Root location: /projects/bgmp/shared/Bi625/ML_Assignment/Datasets/Whale_species/species
+    StandardTransform
+Transform: Compose(
+               ToTensor()
+               Resize(size=[32, 32], interpolation=bilinear, max_size=None, antialias=True)
+               Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+           )
+2794
+Dataset ImageFolder
+    Number of datapoints: 2794
+    Root location: /projects/bgmp/shared/Bi625/ML_Assignment/Datasets/Whale_species/species
+    StandardTransform
+Transform: Compose(
+               ToTensor()
+               Resize(size=[32, 32], interpolation=bilinear, max_size=None, antialias=True)
+               Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+           )
+{'beluga': 0, 'common_dolphin': 1, 'false_killer_whale': 2, 'fin_whale': 3, 'gray_whale': 4, 'humpback_whale': 5}
+Image size is {torch.Size([32, 32])}
+torch.Size([3, 32, 32])
+Image size is {torch.Size([224, 224])}
+torch.Size([3, 224, 224])
+1955 419 420
+Number of images per class:
+	beluga:	n=454	weight=0.0022026431718061676
+	common_dolphin:	n=49	weight=0.02040816326530612
+	false_killer_whale:	n=718	weight=0.001392757660167131
+	fin_whale:	n=120	weight=0.008333333333333333
+	gray_whale:	n=47	weight=0.02127659574468085
+	humpback_whale:	n=567	weight=0.001763668430335097
