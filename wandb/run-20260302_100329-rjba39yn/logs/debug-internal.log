@@ -1,0 +1,13 @@
+{"time":"2026-03-02T10:03:30.797727067-08:00","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-02T10:03:31.168297561-08:00","level":"INFO","msg":"stream: created new stream","id":"rjba39yn"}
+{"time":"2026-03-02T10:03:31.168410153-08:00","level":"INFO","msg":"handler: started","stream_id":"rjba39yn"}
+{"time":"2026-03-02T10:03:31.169166637-08:00","level":"INFO","msg":"stream: started","id":"rjba39yn"}
+{"time":"2026-03-02T10:03:31.169197926-08:00","level":"INFO","msg":"writer: started","stream_id":"rjba39yn"}
+{"time":"2026-03-02T10:03:31.169214026-08:00","level":"INFO","msg":"sender: started","stream_id":"rjba39yn"}
+{"time":"2026-03-02T10:03:31.624835303-08:00","level":"WARN","msg":"handleCodeSave: program relative path is empty"}
+{"time":"2026-03-02T10:20:06.210611658-08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-02T10:20:06.364344798-08:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-02T10:20:06.368534885-08:00","level":"INFO","msg":"stream: closing","id":"rjba39yn"}
+{"time":"2026-03-02T10:20:06.368560363-08:00","level":"INFO","msg":"handler: closed","stream_id":"rjba39yn"}
+{"time":"2026-03-02T10:20:06.368773734-08:00","level":"INFO","msg":"sender: closed","stream_id":"rjba39yn"}
+{"time":"2026-03-02T10:20:06.368788893-08:00","level":"INFO","msg":"stream: closed","id":"rjba39yn"}
