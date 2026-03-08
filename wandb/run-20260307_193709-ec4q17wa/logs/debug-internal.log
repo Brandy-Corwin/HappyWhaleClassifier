@@ -1,0 +1,13 @@
+{"time":"2026-03-07T19:37:11.221477599-08:00","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-07T19:37:11.841014967-08:00","level":"INFO","msg":"stream: created new stream","id":"ec4q17wa"}
+{"time":"2026-03-07T19:37:11.841178035-08:00","level":"INFO","msg":"handler: started","stream_id":"ec4q17wa"}
+{"time":"2026-03-07T19:37:11.841616322-08:00","level":"INFO","msg":"stream: started","id":"ec4q17wa"}
+{"time":"2026-03-07T19:37:11.841621592-08:00","level":"INFO","msg":"writer: started","stream_id":"ec4q17wa"}
+{"time":"2026-03-07T19:37:11.841656768-08:00","level":"INFO","msg":"sender: started","stream_id":"ec4q17wa"}
+{"time":"2026-03-07T19:37:12.327995237-08:00","level":"WARN","msg":"handleCodeSave: program relative path is empty"}
+{"time":"2026-03-07T19:52:50.823779879-08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-07T19:52:50.981263502-08:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-07T19:52:50.984894609-08:00","level":"INFO","msg":"stream: closing","id":"ec4q17wa"}
+{"time":"2026-03-07T19:52:50.984916831-08:00","level":"INFO","msg":"handler: closed","stream_id":"ec4q17wa"}
+{"time":"2026-03-07T19:52:50.985066824-08:00","level":"INFO","msg":"sender: closed","stream_id":"ec4q17wa"}
+{"time":"2026-03-07T19:52:50.985081031-08:00","level":"INFO","msg":"stream: closed","id":"ec4q17wa"}

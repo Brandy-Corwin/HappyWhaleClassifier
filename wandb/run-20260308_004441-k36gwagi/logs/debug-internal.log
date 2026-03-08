@@ -1,0 +1,13 @@
+{"time":"2026-03-08T00:44:41.111733978-08:00","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-08T00:44:41.331178163-08:00","level":"INFO","msg":"stream: created new stream","id":"k36gwagi"}
+{"time":"2026-03-08T00:44:41.331266991-08:00","level":"INFO","msg":"handler: started","stream_id":"k36gwagi"}
+{"time":"2026-03-08T00:44:41.331934171-08:00","level":"INFO","msg":"stream: started","id":"k36gwagi"}
+{"time":"2026-03-08T00:44:41.331963246-08:00","level":"INFO","msg":"writer: started","stream_id":"k36gwagi"}
+{"time":"2026-03-08T00:44:41.331978975-08:00","level":"INFO","msg":"sender: started","stream_id":"k36gwagi"}
+{"time":"2026-03-08T00:44:41.708689895-08:00","level":"WARN","msg":"handleCodeSave: program relative path is empty"}
+{"time":"2026-03-08T00:59:53.678674536-08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-08T00:59:53.82041337-08:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-08T00:59:53.823722459-08:00","level":"INFO","msg":"stream: closing","id":"k36gwagi"}
+{"time":"2026-03-08T00:59:53.823738178-08:00","level":"INFO","msg":"handler: closed","stream_id":"k36gwagi"}
+{"time":"2026-03-08T00:59:53.823878994-08:00","level":"INFO","msg":"sender: closed","stream_id":"k36gwagi"}
+{"time":"2026-03-08T00:59:53.823901647-08:00","level":"INFO","msg":"stream: closed","id":"k36gwagi"}

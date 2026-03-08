@@ -1,0 +1,81 @@
+diff --git a/.ipynb_checkpoints/ML_assignment_whale_species-checkpoint.ipynb b/.ipynb_checkpoints/ML_assignment_whale_species-checkpoint.ipynb
+index 59d6d10..71e0555 100644
+--- a/.ipynb_checkpoints/ML_assignment_whale_species-checkpoint.ipynb
++++ b/.ipynb_checkpoints/ML_assignment_whale_species-checkpoint.ipynb
+@@ -3787,12 +3787,20 @@
+    ]
+   },
+   {
+-   "cell_type": "raw",
+-   "id": "5106d441-55f3-44f6-a80b-a31e525c7125",
++   "cell_type": "markdown",
++   "id": "027c3778-7d3f-4c24-a58d-ee2fd24a3022",
+    "metadata": {},
+    "source": [
+     "Increasing the learning rate and batch size made the model a little worse, most likely due to overfitting. Adding a random perspective transformation on the data made my model slightly better probably because it changes the images a little. My last change of using pre-trained weights greatly improved my model likely because it acciunted for the class imbalance found in the data. I think the pre-trained weights had the greatest impact because there was a lot of class imbalance. The smallest class had 6 images while the largest class had 152."
+    ]
++  },
++  {
++   "cell_type": "code",
++   "execution_count": null,
++   "id": "df70823b-635f-4a32-bf2e-bfb6b5d36c3c",
++   "metadata": {},
++   "outputs": [],
++   "source": []
+   }
+  ],
+  "metadata": {
+diff --git a/ML_assignment_whale_species.ipynb b/ML_assignment_whale_species.ipynb
+index 59d6d10..71e0555 100644
+--- a/ML_assignment_whale_species.ipynb
++++ b/ML_assignment_whale_species.ipynb
+@@ -3787,12 +3787,20 @@
+    ]
+   },
+   {
+-   "cell_type": "raw",
+-   "id": "5106d441-55f3-44f6-a80b-a31e525c7125",
++   "cell_type": "markdown",
++   "id": "027c3778-7d3f-4c24-a58d-ee2fd24a3022",
+    "metadata": {},
+    "source": [
+     "Increasing the learning rate and batch size made the model a little worse, most likely due to overfitting. Adding a random perspective transformation on the data made my model slightly better probably because it changes the images a little. My last change of using pre-trained weights greatly improved my model likely because it acciunted for the class imbalance found in the data. I think the pre-trained weights had the greatest impact because there was a lot of class imbalance. The smallest class had 6 images while the largest class had 152."
+    ]
++  },
++  {
++   "cell_type": "code",
++   "execution_count": null,
++   "id": "df70823b-635f-4a32-bf2e-bfb6b5d36c3c",
++   "metadata": {},
++   "outputs": [],
++   "source": []
+   }
+  ],
+  "metadata": {
+diff --git a/wandb/debug-internal.log b/wandb/debug-internal.log
+index 1603c88..3d24a8e 120000
+--- a/wandb/debug-internal.log
++++ b/wandb/debug-internal.log
+@@ -1 +1 @@
+-run-20260302_100329-rjba39yn/logs/debug-internal.log
+\ No newline at end of file
++run-20260308_110617-3eqtgrpi/logs/debug-internal.log
+\ No newline at end of file
+diff --git a/wandb/debug.log b/wandb/debug.log
+index 8017cec..c4c841d 120000
+--- a/wandb/debug.log
++++ b/wandb/debug.log
+@@ -1 +1 @@
+-run-20260302_100329-rjba39yn/logs/debug.log
+\ No newline at end of file
++run-20260308_110617-3eqtgrpi/logs/debug.log
+\ No newline at end of file
+diff --git a/wandb/latest-run b/wandb/latest-run
+index cf052d1..d2bd431 120000
+--- a/wandb/latest-run
++++ b/wandb/latest-run
+@@ -1 +1 @@
+-run-20260302_100329-rjba39yn
+\ No newline at end of file
++run-20260308_110617-3eqtgrpi
+\ No newline at end of file
